@@ -8,18 +8,20 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the required packages and print the present data.
+2. Print the placement data and salary data.
+3. Find the null and duplicate values.
+4. Using logistic regression, find the predicted values of accuracy and, confusion matrices.
+5. Display the results.
 
 ## Program:
 ```
 
-Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
+Program to implement the multivariate linear regression model for predicting the price of the house and the number of occupants in the house with an SGD regressor.
 Developed by: B R SWETHA NIVASINI
 RegisterNumber:212224040345
-
+```
+```
 import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import SGDRegressor
